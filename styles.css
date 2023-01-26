@@ -65,12 +65,12 @@
     border: 1px solid var(--blue-5);
     color: var(--blue-5);
   }
-  .navbar-email {
+  /* .navbar-email {
     color: var(--blue-5);
     font-size: var(--sm);
     margin-right: 12px;
     cursor: pointer;
-  }
+  } */
   .navbar-shopping-cart {
     position: relative;
   }
@@ -89,7 +89,7 @@
     align-items: center;
   }
 
-  /* desktop menu */
+  /* desktop menu
   .desktop-menu {
     position:absolute;
     top: 60px;
@@ -126,7 +126,7 @@
     text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;
-  }
+  } */
 /* mobile menu  */
   .mobile-menu {
     background-color: var(--white);
@@ -357,9 +357,9 @@ aside {
   .navbar-email {
     display: none;
   }
-  .desktop-menu {
+  /* .desktop-menu {
     display: none;
-  }
+  } */
 
   aside {
     width: 100%;
