@@ -1,0 +1,10 @@
+//const menuEmail = document.querySelector('.navbar-email');
+//const desktopMenu = document.querySelector('.desktop-menu');
+const iconMenuBtn = document.querySelector('.menu'); // Hamburger menu
+const shoppingCartIcon = document.querySelector('.navbar-shopping-cart');
+const productDetailCloseIcon = document.querySelector('.product-detail-close');
+const mobileMenu = document.querySelector('.mobile-menu');
+const shoppingCartContainer = document.querySelector('#shoppingCartContainer');
+const productDetailContainer = document.querySelector('#productDetail');
+const cardsContainer = document.querySelector('.cards-container');
+const mainContainer = document.querySelector('.main-container');
