@@ -1,4 +1,4 @@
-const API = "https://api.escuelajs.co/api/v1/products?offset=0&limit=30";
+const API = "https://api.escuelajs.co/api/v1/products/";
 
 const main = async () => {
    const response = await fetch(API);
@@ -33,6 +33,7 @@ main();
 
 function openProductDetailAside() {
     shoppingCartContainer.classList.add('inactive');
+
     productDetailContainer.classList.remove('inactive');
 }
 
